@@ -1,0 +1,1 @@
+//Create an app whichs returns true/false depending on if the item is in the array

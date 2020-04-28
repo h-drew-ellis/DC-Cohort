@@ -1,0 +1,10 @@
+Activity - Calculator Unit Tests
+Remember the amazing Calculator app you did in Week 1. Write the same app but this time using the principles of Test Driven Development. 
+
+Ask the user for input 1 
+
+Ask the user for input 2 
+
+Ask the user for operation (+, -, *, /) 
+
+* Create a separate class for Calculator

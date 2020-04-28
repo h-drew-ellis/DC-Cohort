@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: red;
+}
+
+.rainbow-text {
+    background-color: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+}
+
+li a {
+    display: block;
+    color: red;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.column.l {
+    margin: left;
+    width: 25.33%;
+    height: 100px;
+}
+
+.column.r {
+    margin: right;
+    width: 25.33%;
+    height: 300px;
+}

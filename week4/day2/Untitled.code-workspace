@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../test-site"
+		}
+	],
+    "settings": {
+        "liveshare.account": "Andrew Ellis"
+    }
+}

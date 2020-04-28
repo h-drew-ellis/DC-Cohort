@@ -1,0 +1,12 @@
+#moviesList {
+    display: float;
+    float: row-resize;
+}
+
+li {
+}
+
+li.img {
+    width: 200px;
+    height: 200px;
+}

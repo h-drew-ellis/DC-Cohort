@@ -1,0 +1,3 @@
+def longestWord(sen):
+        check = []
+        

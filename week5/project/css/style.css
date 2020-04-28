@@ -1,0 +1,17 @@
+li {
+    width: 300px;
+    height: 250px;
+    list-style-type: none;
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    align-content: center;
+    object-fit: contain;
+    object-position: 0px;
+    flex-direction: row;
+}
+
+li.label {
+    size: 300px;
+}

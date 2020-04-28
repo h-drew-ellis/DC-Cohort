@@ -1,0 +1,21 @@
+html {
+    background-color: rgb(8, 0, 52);
+    color: seashell;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+img {
+    width: 400px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}

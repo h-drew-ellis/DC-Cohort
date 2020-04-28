@@ -1,0 +1,2 @@
+this-|-high
+now-|-high[{'another thing': 'high'}][{'another thing': 'high'}, {'anothers': 'med'}]
