@@ -1,0 +1,42 @@
+<html>
+
+<head></head>
+
+<body>
+    <form id="input">
+        <p><input type="text" id="storeName" placeholder="Store Name" /></p>
+        <p>
+            <input type="text" id="streetAddress" placeholder="Street Address" />
+            <input type="text" id="city" placeholder="City" />
+            <input type="text" id="state" placeholder="State" />
+            <input type="text" id="zip" placeholder="Zip Code" />
+        </p>
+        <p><button id="submit">Sumbit</button></p>
+        <ul id="myStores">Added Stores</ul>
+    </form>
+    <!-- The core Firebase JS SDK \-->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCEY0BQOb-t2XfR_NdXmXxbG5uvijbcve4",
+            authDomain: "grocery-store-7e217.firebaseapp.com",
+            databaseURL: "https://grocery-store-7e217.firebaseio.com",
+            projectId: "grocery-store-7e217",
+            storageBucket: "grocery-store-7e217.appspot.com",
+            messagingSenderId: "626885974631",
+            appId: "1:626885974631:web:d03c886e4403d7fda792c2"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+<footer>
+    <script src="js/script.js"></script>
+</footer>
+
+</html>
