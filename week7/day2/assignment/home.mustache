@@ -1,0 +1,21 @@
+<html>
+<head>
+   
+</head>
+
+<body>
+
+    <h1>Tasks</h1>
+
+    <ul>
+         {{#listOfTasks}} <!-- Start of the loop --> 
+
+         <!-- You have access to all the properties of the object contained in the listOfTasks array -->
+             <li> {{title}} - {{priority}} </li>
+
+         {{/listOfTasks}} <!-- End of the loop -->
+    </ul>
+  
+</body>
+
+</html>

@@ -5,18 +5,22 @@ const port = 3000;
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-app.engine('mustache', mustache())
-app.set('views', './views')
-app.set('view engine', 'mustache')
+app.engine('mustache', mustache());
+app.set('views', './views');
+app.set('view engine', 'mustache');
 
 app.use(cors());
-app.use(bodyParser.urlencoded({ extended: flase }))
+app.use(bodyParser.json({ extended: true }));
 
 
 let list = [];
 
 
-app.get('/todos', function(req, res) {
+app
+
+
+
+    .get('/todos', function(req, res) {
     res.render('todos')
 });
 

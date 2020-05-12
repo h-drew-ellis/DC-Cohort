@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+    <form method="POST" action=/add-customer>
+        <input type="text" placeholder="name" name="name"/>
+        <input type="text" placeholder="age" name="age" />
+        <button>Submit</button>
+    </form>
+
+<h1><u>Registered Customers</u></h1>
+<ul>
+    {{#customers}}
+        <li>Customer: {{name}} who is {{age}} years old, has been saved successfully </li>
+    {{/customers}}
+</ul>
+</body>
+</html>
