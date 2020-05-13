@@ -1,0 +1,14 @@
+<html>
+<head></head>
+<body>
+<h1> All Movies</h1>
+<a href="/movies/create">Add a movie</a>
+<a href="/movies/delete">Delete a movie</a>
+<div
+<ul>
+    {{#movies}}
+        <li><img id="poster" src={{imgURL}}> <label>{{title}}</label> "Genre:"{{genre}} <p>{{description}}</p></li>
+    {{/movies}}
+</ul>
+</body>
+</html>

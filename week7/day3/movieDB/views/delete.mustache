@@ -1,0 +1,19 @@
+<html>
+<head></head>
+<body>
+<h1> All Movies</h1>
+<a href="/movies">All movies</a>
+<a href="/movies/create">Add a movie</a>
+<div
+<ul>
+    {{#movies}}
+        <li><img id="poster" src={{imgURL}}> <label>{{title}}</label>
+        <form method="POST" action="/movies/delete">
+            <input type="hidden" value={{title}} name="title">
+            <button>Delete Movie</button>
+        </form>
+        </li>
+    {{/movies}}
+</ul>
+</body>
+</html>

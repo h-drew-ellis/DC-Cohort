@@ -1,0 +1,18 @@
+<html>
+<head></head>
+<body>
+<h1> Add A movie</h1>
+<a href="/movies">Return to Movie List</a>
+<form method="POST" action = "/movies/create">
+    <input type="text" placeHolder="Movie Title" name="title"/>
+    <input type="text" placeHolder="image url" name="imgURL"/>            
+    <input type="text" placeHolder="Genre of the Movie" name="genre"/>
+    <input type="text" placeHolder="Description" name="description"/>
+    <button>Add Movie to list</button>
+</form>
+    {{#movies}}
+        {{title}} has been added to the list
+    {{/movies}} 
+</ul>
+</body>
+</html>
