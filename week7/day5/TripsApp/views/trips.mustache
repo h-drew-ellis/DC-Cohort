@@ -1,0 +1,28 @@
+<html>
+<head>
+   
+</head>
+
+<body>
+<h1>Welcome {{username}}</h1>
+    <h2>Add Trip</h2>
+        <form method="POST" action='/trips'">
+            <input type="text" placeholder="Destination" name="city"/>
+            <input type='text' placeholder="Date of Departure" name="DFL" />
+            <input type="text" placeholder="Date of Return" name ="RFL" />
+            <button>Add Trip</button>
+     </form>
+
+     <h2>Trips</h2>
+    <ul>
+         {{#trips}}
+
+         
+             <li>{{city}} {{RFL}} {{RFL}}</li>
+
+         {{/trips}} 
+    </ul>
+  
+</body>
+
+</html>

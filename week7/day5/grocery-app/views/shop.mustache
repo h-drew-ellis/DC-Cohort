@@ -1,0 +1,23 @@
+<html>
+<head></head>
+<body>
+    <h1> Project shopping</h1>
+        <h3>Currently in-stock</h3>
+            <ul>
+            {{#products}}
+            <form method="POST" action="/cart">
+
+            <li>
+                <b>{{title}}</b>
+                <i>{{category}}</i> 
+                ${{price}} 
+                <input type="hidden" name="title" value={{title}}/> 
+                <input type="hidden" name="price" value={{price}}/>  
+                <button>Add to cart</button></li>
+            
+            {{/products}}
+            </form>
+
+             <h3>Go to <a href="/cart">cart</a></h3>
+</body>
+</html>

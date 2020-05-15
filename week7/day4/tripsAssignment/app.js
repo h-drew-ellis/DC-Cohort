@@ -7,12 +7,12 @@ var session = require('express-session')
 
 //MiddleWare
 app.use(express.urlencoded())
-app.use("/trips", authenticate, tripsRouter)
 app.use(session({
     secret: "password",
     resave: false,
     saveUninitialized: true
 }))
+app.use("/trips", authenticate, tripsRouter)
 
 
 

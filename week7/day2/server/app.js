@@ -7,6 +7,9 @@ app.set('views', './views')
 app.set('view engine', 'mustache')
 
 let customers = []
+
+
+
 app.use(express.urlencoded())
     //pages
 app.get('/', (req, res) => {
