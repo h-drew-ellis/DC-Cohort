@@ -1,0 +1,26 @@
+<html>
+<head>
+   
+</head>
+
+<body>
+
+    <h1>Add Trip</h1>
+        <form method="POST action='/home'">
+            <input type="text" placeholder="Destination" name="city"/>
+            <input type='text' placeholder="Date of Departure" name="DFL" />
+            <input type="text" placeholder="Date of Return" name ="RFL" />
+            <button>Add Trip</button>
+        </form>
+    <ul>
+         {{#trips}} <!-- Start of the loop --> 
+
+         <!-- You have access to all the properties of the object contained in the listOfTasks array -->
+             <li> You have a trip for: <b><u>{{Destination}}</u></b> on {{DFL}} ending {{RFL}} </li>
+
+         {{/trips}} <!-- End of the loop -->
+    </ul>
+  
+</body>
+
+</html>
