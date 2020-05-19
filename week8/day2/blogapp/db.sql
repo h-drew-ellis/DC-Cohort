@@ -16,3 +16,5 @@ postsid INTEGER REFERENCES posts(postsid),
 date_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 date_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+SELECT title,body,date_created,date_updated FROM posts
