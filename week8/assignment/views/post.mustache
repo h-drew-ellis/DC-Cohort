@@ -1,0 +1,34 @@
+<html>
+<head></head>
+<body>
+
+<a href="/">Return to Posts</a>
+
+<h1> Blog Post Details </h1>
+
+<h2>{{title}}</h2>
+
+
+<p>{{body}}</p>
+<p>{{date_created}}</p>
+
+<h3>Peanut Gallery</h3>
+    <ul>
+    {{#comments}}
+        <li>
+            {{title}}
+            <p>{{body}}</p>
+        </li>
+
+    {{/comments}}
+    </ul>
+
+<form method="POST" action='/comment'>
+    <input type="text" name="title" placeholder = "Comment Title">
+    <input type="textarea" name="body" placeholder = "Full Comment">
+    <input type="hidden" name="postid" value={{id}}>
+    
+    <button>Submit</button>
+</form>
+
+</body>
