@@ -1,0 +1,11 @@
+{
+    "folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../DC-fullstack-project-master"
+		}
+	],
+    "settings": {}
+}
