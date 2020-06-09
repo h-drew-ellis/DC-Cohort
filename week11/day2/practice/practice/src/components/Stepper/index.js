@@ -28,9 +28,11 @@ class Stepper extends Component {
 
         return(
         <div>
+        <button className="addButton" onClick= { this.countUpButton }>+</button>
         <button className="minusButton" onClick= { this.countDownButton }>-</button>
         <h2>{this.state.counter}</h2>
-        <button className="addButton" onClick= { this.countUpButton }>+</button>
+        <button className="minusButton" onClick= { this.countDownButton }>-</button>
+        
         </div>
         )
     }
