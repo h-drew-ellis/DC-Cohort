@@ -1,0 +1,15 @@
+.header {
+height: 200px;
+width: max-content;
+display: inline-block;
+vertical-align: top;
+}
+.redirect {
+    margin: 10px ;
+    padding: 7px ;
+}
+
+.auth {
+    margin: 10px;
+    padding: 7px;
+}
